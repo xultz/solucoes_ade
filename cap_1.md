@@ -1,5 +1,7 @@
 # 1.1
 
-Testando 123.
+R<sub>1</sub>=5k, R<sub>2</sub>=10k
 
-<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\Delta&space;=&space;b^2&space;-&space;4&space;\cdot&space;a&space;\cdot&space;c" title="\Delta = b^2 - 4 \cdot a \cdot c" />
+a)Em série:
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;R_{T}&space;=&space;R_{1}&space;&plus;&space;R_{2}" title="R_{T} = R_{1} + R_{2}" />
+
