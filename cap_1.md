@@ -14,4 +14,4 @@ b) Em paralelo:
 
 # 1.2
 
-<img src="./CH1/1_3.svg">
+<img src="./CH1/1_3.svg" width=50>
