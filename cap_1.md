@@ -56,3 +56,16 @@ Neste caso, a tensão em todos os resistores será igual, que é a tensão da fo
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;\frac{I_{T}}{V}&space;=&space;\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}" title="\small \frac{I_{T}}{V} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;\frac{V}{I_{T}}&space;=&space;\frac{1}{\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}}" title="\small \frac{V}{I_{T}} = \frac{1}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}}" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;R_{T}&space;=&space;\frac{1}{\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}}" title="\small R_{T} = \frac{1}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}}" />
+
+# 1.4
+Pelo jeito ele pediu para fazer o que fiz em 1.3 b, então sei lá...
+
+# 1.5
+
+Dados: R=1k com 0,25W de potência máxima.
+Ao conectar numa fonte de 15V, a potência dissipada será:
+
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;P&space;=&space;\frac{V^2}{R}" title="\small P = \frac{V^2}{R}" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;P&space;=&space;\frac{15^2}{1&space;\cdot&space;10^3}&space;=&space;0,225W" title="\small P = \frac{15^2}{1 \cdot 10^3} = 0,225W" />
+
+Se conectar um resistor em série com este resistor, a corrente será menor, consequentemente a potência será menor. Se conectar em paralelo, a tensão e corrente sobre o resistor continuará igual. Desta maneira, não é possível fazer com que a potência dissipada sobre o resistor seja maior que 0,225W, tendo uma única fonte de 15V.
