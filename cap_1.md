@@ -18,3 +18,10 @@ b) Em paralelo:
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;P&space;=&space;V&space;\cdot&space;I" title="\small P = V \cdot I" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;I&space;=&space;\frac{V}{R}&space;=&space;\frac{12}{1}&space;=&space;12A" title="\small I = \frac{V}{R} = \frac{12}{1} = 12A" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;P&space;=&space;V&space;\cdot&space;I&space;=&space;12&space;\cdot&space;12&space;=&space;144W" title="\small P = V \cdot I = 12 \cdot 12 = 144W" />
+
+# 1.3
+Eu não entendi muito bem o que o enunciado da questão pede, eu entendi que é prá deduzir as equações que permitem calcular o valor de resistência total para circuitos série e paralelo. Se for isso, então vamos lá:
+
+## Série
+Partindo de um circuito como abaixo:
+<img src="./CH1/1_3a.svg" width=250>
