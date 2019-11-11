@@ -22,12 +22,12 @@ b) Em paralelo:
 # 1.3
 Eu não entendi muito bem o que o enunciado da questão pede, eu entendi que é prá deduzir as equações que permitem calcular o valor de resistência total para circuitos série e paralelo. Se for isso, então vamos lá:
 
-## Série
+## a) Série
 Partindo de um circuito como abaixo:
 
 <img src="./CH1/1_3a.svg" width=250>
 
-Pela lei de Ohm, V = R.I, e R = V/I. A resistência total do circuito, que é a resistência que a fonte V1 "enxerga", é a razão tensão da fonte pela corrente total (It) do circuito.
+Pela lei de Ohm, V = R.I, e R = V/I. A resistência total do circuito, que é a resistência que a fonte V1 "enxerga", é a razão da tensão da fonte pela corrente total (It) do circuito.
 
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;R_{T}&space;=&space;\frac{V}{I_{T}}" title="\small R_{T} = \frac{V}{I_{T}}" />
 
@@ -41,3 +41,18 @@ Como no circuito série a corrente é a mesma em todos os componentes, podemos r
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;V&space;=&space;I_{T}&space;\cdot&space;(&space;R_{1}&space;&plus;&space;R_{2}&space;&plus;&space;R_{3}&space;)" title="\small V = I_{T} \cdot ( R_{1} + R_{2} + R_{3} )" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;\frac{V}{I_{T}}&space;=&space;R_{1}&space;&plus;&space;R_{2}&space;&plus;&space;R_{3}" title="\small \frac{V}{I_{T}} = R_{1} + R_{2} + R_{3}" />
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;R_{T}&space;=&space;R_{1}&space;&plus;&space;R_{2}&space;&plus;&space;R_{3}" title="\small R_{T} = R_{1} + R_{2} + R_{3}" />
+
+## b) Paralelo
+
+Partindo do circuito abaixo:
+
+<img src="./CH1/1_3b.svg" width=500>
+
+Neste caso, a tensão em todos os resistores será igual, que é a tensão da fonte V. A corrente It será a soma das correntes nos resistores:
+
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;I_{T}&space;=&space;I_{R1}&space;&plus;&space;I_{R2}&space;&plus;&space;I_{R3}" title="\small I_{T} = I_{R1} + I_{R2} + I_{R3}" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;I_{T}&space;=&space;\frac{V}{R_{1}}&space;&plus;&space;\frac{V}{R_{2}}&space;&plus;&space;\frac{V}{R_{3}}" title="\small I_{T} = \frac{V}{R_{1}} + \frac{V}{R_{2}} + \frac{V}{R_{3}}" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;I_{T}&space;=&space;V&space;\cdot&space;(&space;\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}&space;)" title="\small I_{T} = V \cdot ( \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}} )" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;\frac{I_{T}}{V}&space;=&space;\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}" title="\small \frac{I_{T}}{V} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;\frac{V}{I_{T}}&space;=&space;\frac{1}{\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}}" title="\small \frac{V}{I_{T}} = \frac{1}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}}" />
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;R_{T}&space;=&space;\frac{1}{\frac{1}{R_{1}}&space;&plus;&space;\frac{1}{R_{2}}&space;&plus;&space;\frac{1}{R_{3}}}" title="\small R_{T} = \frac{1}{\frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}}" />
