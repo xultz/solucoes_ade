@@ -14,5 +14,4 @@ b) Em paralelo:
 
 # 1.2
 
-![Alt text](./CH1/1_3.svg)
 <img src="./CH1/1_3.svg">
