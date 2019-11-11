@@ -46,7 +46,7 @@ Como no circuito série a corrente é a mesma em todos os componentes, podemos r
 
 Partindo do circuito abaixo:
 
-<img src="./CH1/1_3b.svg" width=500>
+<img src="./CH1/1_3b.svg" width=450>
 
 Neste caso, a tensão em todos os resistores será igual, que é a tensão da fonte V. A corrente It será a soma das correntes nos resistores:
 
