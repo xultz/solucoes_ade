@@ -69,3 +69,10 @@ Ao conectar numa fonte de 15V, a potência dissipada será:
 <img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;P&space;=&space;\frac{15^2}{1&space;\cdot&space;10^3}&space;=&space;0,225W" title="\small P = \frac{15^2}{1 \cdot 10^3} = 0,225W" />
 
 Se conectar um resistor em série com este resistor, a corrente será menor, consequentemente a potência será menor. Se conectar em paralelo, a tensão e corrente sobre o resistor continuará igual. Desta maneira, não é possível fazer com que a potência dissipada sobre o resistor seja maior que 0,225W, tendo uma única fonte de 15V.
+
+# 1.6
+
+Para a potência e tensão informados, a corrente será de:
+
+<img src="https://latex.codecogs.com/svg.latex?\fn_jvn&space;\small&space;I&space;=&space;\frac{P}{V}&space;=&space;\frac{10^{10}}{115}&space;=&space;86,957&space;\cdot&space;10^6&space;A" title="\small I = \frac{P}{V} = \frac{10^{10}}{115} = 86,957 \cdot 10^6 A" />
+a)
