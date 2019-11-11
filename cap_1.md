@@ -24,4 +24,5 @@ Eu não entendi muito bem o que o enunciado da questão pede, eu entendi que é 
 
 ## Série
 Partindo de um circuito como abaixo:
+
 <img src="./CH1/1_3a.svg" width=250>
